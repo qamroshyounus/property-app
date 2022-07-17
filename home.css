@@ -1,0 +1,70 @@
+.body{
+    background: url(image02.jpg);
+    margin: 0;
+    padding: 0;
+}
+.img-area{
+    width: 50%;
+    height: 50vh;
+    background: url(slideshow1.jpg);
+    animation: animate 15s infinite ease-in-out;
+    -webkit-background-size:cover ;
+    background-size: cover;
+    background-position: center center;
+}
+@keyframes animate{
+    10%{
+        background: url(slideshow5.jpg);
+        -webkit-background-size:cover ;
+    background-size: cover;
+    background-position: center center;
+    }
+    20%{
+        background: url(slideshow3.jpg);
+        -webkit-background-size:cover ;
+    background-size: cover;
+    background-position: center center;
+    }
+    30%{
+        background: url(slideshow4.jpg);
+        -webkit-background-size:cover ;
+    background-size: cover;
+    background-position: center center;
+    }
+    40%{
+        background: url(slideshow5.jpg);
+        -webkit-background-size:cover ;
+    background-size: cover;
+    background-position: center center;
+    }
+    50%{
+        background: url(slideshow6.jpg);
+        -webkit-background-size:cover ;
+    background-size: cover;
+    background-position: center center;
+    }
+    60%{
+        background: url(slideshow7.jpg);
+        -webkit-background-size:cover ;
+    background-size: cover;
+    background-position: center center;
+    }
+    70%{
+        background: url(slideshow8.jpg);
+        -webkit-background-size:cover ;
+    background-size: cover;
+    background-position: center center;
+    }
+    80%{
+        background: url(slideshow9.jpg);
+        -webkit-background-size:cover ;
+    background-size: cover;
+    background-position: center center;
+    }
+    100%{
+        background: url(slideshow1.jpg);
+        -webkit-background-size:cover ;
+    background-size: cover;
+    background-position: center center;
+    }
+}
